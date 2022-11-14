@@ -65,17 +65,20 @@ PROCESS
 In this step I choose to use SQL for data cleaning , because of the limitation from excel,  I performed the analysis by verifying the number of dataset I need for this case study , 6 million + rows was verified, I removed all null data and selected the rows I needed for the analysis to avoid deviating from the business task.
 
 I used MySQL, to combine the 12 months dataset into one table,
-Firstly I imported all the 12 months dataset into MySQL.  
+Firstly I imported all the 12 months dataset into MySQL. 
+ 
+ ![image](https://user-images.githubusercontent.com/100621086/201755199-4b993d23-23e5-45fb-9a8f-f016a45c2fdd.png)
+
 
 Created a table called dbo.bike_years using the CREATE TABLE FUNCTION.
 The INSERT, UNION, SELECT was used to combine the 12 different data set into the existing table  dbo.bike_years which resulted to a total of 6 million + rows.(6,584,382)
 During this process I selected the specific columns needed to answer the stakeholders question
  
- 
+ ![image](https://user-images.githubusercontent.com/100621086/201755463-e91f7f15-429d-46b7-ac0f-7769499cd6bf.png)
 
- 
- 
-MySQL code for data can be found here
+
+![image](https://user-images.githubusercontent.com/100621086/201755485-69d60463-e528-4775-9b9e-d43dc20e18b0.png)
+
  
 ANALYZE
 
@@ -84,14 +87,17 @@ After the Data cleaning step, I continued with the analysis process where I perf
 This analysis returns the ride_length in minutes for each day categorized by each rideable type.
  
  
- 
- 
- 
+ ![image](https://user-images.githubusercontent.com/100621086/201755548-f6d51117-895c-4874-93f3-3ecf861453b1.png)
+
+
+![image](https://user-images.githubusercontent.com/100621086/201755591-5f57a9b6-5be6-4811-b063-3ce81b84a158.png)
+
+
+![image](https://user-images.githubusercontent.com/100621086/201755633-59ea904b-cab6-4fbb-877c-e911d47b8d63.png)
 
  
 
 
-MySQL code for data can be found here
 
 
 
@@ -107,19 +113,24 @@ The most Popular time of the year
 The statistical exploration of the dataset showed that the month of July both for members and casuals made more trips, this can be related to the fact that July is a summer month and most of the riders rents the bike for leisure purposes.
 
 
- 
+ ![image](https://user-images.githubusercontent.com/100621086/201755734-7e6d935c-bedf-4037-bfd4-082eb7c8a48a.png)
+
  
 
 Casual Riders
 
 The cyclitic entertain more casual riders during weekends (Sunday and Saturday), the casuals first renting is always in the morning from the 10 am but on weekdays the peak renting time is from 4pm - 6pm and can be deduced that most casual riders prefer to ride cyclitic bike back home instead of taking a taxi. Since the riders mostly rent on weekends, this might be due to the fact that the casual riders mostly make sport trips, errand or even leisure trips
 
- 
+ ![image](https://user-images.githubusercontent.com/100621086/201755769-3fe10663-6c4f-4abf-a8aa-301be686d9d4.png)
+
 
 
 Member Riders
 Converting casuals to member-ship riders would be a great deal for cyclistic bike share, Member riders takes trips  during weekdays than weekends, this means that the  riders that opt for the membership subscription are mostly people that got a job,  a business or are students, because they record a good number  of riders at the early hours of the day, and records its peak at 5pm which can be deduced  that the riders makes use of the bike to commute from work or go for their night shifts. 
  
+![image](https://user-images.githubusercontent.com/100621086/201755805-75da2415-0a07-4e59-862a-9c61b03bcc4b.png)
+
+
 
  
 ACT AND RECOMMENDATIONS
