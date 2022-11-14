@@ -131,7 +131,6 @@ Converting casuals to member-ship riders would be a great deal for cyclistic bik
 ![image](https://user-images.githubusercontent.com/100621086/201755805-75da2415-0a07-4e59-862a-9c61b03bcc4b.png)
 
 
-
  
 ACT AND RECOMMENDATIONS
 
